@@ -1,0 +1,42 @@
+
+Attribute Information 
+
+name: The ASCII subject name and recording number, which identifies the specific subject and recording in the dataset.
+
+MDVP:Fo(Hz): This attribute measures the average vocal fundamental frequency, which is the rate at which the vocal folds vibrate during speech.
+
+MDVP:Fhi(Hz): This attribute measures the maximum vocal fundamental frequency, which represents the highest pitch the speaker can reach.
+
+MDVP:Flo(Hz): This attribute measures the minimum vocal fundamental frequency, which represents the lowest pitch the speaker can reach.
+
+MDVP:Jitter(%), MDVP:Jitter(Abs), MDVP:RAP, MDVP:PPQ, Jitter:DDP: These attributes are several measures of variation in fundamental frequency, such as the percentage of jitter (or variability) in the vocal frequency, the absolute difference between consecutive periods, and so on.
+
+MDVP:Shimmer, MDVP:Shimmer(dB), Shimmer:APQ3, Shimmer:APQ5, MDVP:APQ, Shimmer:DDA: These attributes are several measures of variation in amplitude, such as the shimmer (or variation) of the amplitude, the difference between the amplitude of the highest and lowest peak, and so on.
+
+NHR, HNR: These attributes are two measures of the ratio of noise to tonal components in the voice. NHR measures the ratio of noise to tonal components in the harmonic frequency range, while HNR measures the ratio of noise to tonal components in the overall spectrum.
+
+status: This attribute indicates the health status of the subject, with 1 representing Parkinson's disease and 0 representing a healthy subject.
+
+RPDE, D2: These attributes are two nonlinear dynamical complexity measures, which quantify the complexity of the speech signal.
+
+DFA: This attribute represents the signal fractal scaling exponent, which measures the self-similarity of the speech signal across different scales.
+
+spread1, spread2, PPE: These attributes are three nonlinear measures of fundamental frequency variation, which capture the irregularity and unpredictability of the frequency patterns in the speech signal.
+
+
+
+DeepeDive:
+
+Average vocal fundamental frequency (MDVP:Fo(Hz)): People with Parkinson's disease may have a lower pitch, or frequency, in their voice compared to healthy individuals.
+
+Maximum and minimum vocal fundamental frequency (MDVP:Fhi(Hz), MDVP:Flo(Hz)): Similar to the average frequency, people with Parkinson's may have a reduced range of frequency in their voice.
+
+Jitter and shimmer measures (MDVP:Jitter(%), MDVP:Jitter(Abs), MDVP:RAP, MDVP:PPQ, MDVP:Shimmer, MDVP:Shimmer(dB), Shimmer:APQ3, Shimmer:APQ5, MDVP:APQ, Shimmer:DDA): These are measures of variation in the fundamental frequency and amplitude of the voice. Parkinson's disease can cause tremors and other movement issues, which can affect the stability of the voice, resulting in more jitter and shimmer.
+
+NHR (Noise-to-Harmonics Ratio): This is a measure of the ratio of noise to tonal components in the voice. In Parkinson's disease, there may be an increase in the amount of noise in the voice due to tremors and other movement issues.
+
+RPDE (Recurrence Period Density Entropy) and D2 (Correlation dimension): These are nonlinear dynamical complexity measures that can be used to quantify changes in the voice that may be associated with Parkinson's disease.
+
+DFA (Detrended Fluctuation Analysis): This is a signal fractal scaling exponent that can be used to measure the variability of the voice signal. In Parkinson's disease, there may be a decrease in the variability of the voice due to tremors and other movement issues.
+
+Spread1, Spread2, and PPE: These are nonlinear measures of fundamental frequency variation that can be used to quantify changes in the voice that may be associated with Parkinson's disease.
